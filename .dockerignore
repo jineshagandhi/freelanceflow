@@ -1,0 +1,31 @@
+# Build outputs
+target/
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+
+# Local dev artefacts
+.mvn/wrapper/maven-wrapper.jar
+*.log
+*.class
+
+# IDE / editor
+.idea/
+.vscode/
+.project
+.classpath
+.factorypath
+.settings/
+.mvn/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Docs and JSON dumps (not needed inside the runtime image)
+*.md
+HELP.md
